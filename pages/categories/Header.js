@@ -18,13 +18,13 @@ function Header() {
                     <Link href="/">
                         <button className="text-white px-4 m-1 bg-transparent-500/10 rounded-full p-1 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring focus:ring-300" href='/Home'>HOME</button>
                     </Link>
-                    <Link href="/pages/projects/IndexProjects">
+                    <Link href="/categories/projects/IndexProjects">
                         <button className="text-white px-4 m-1 bg-transparent-500/10 rounded-full p-1 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring focus:ring-300" href="#">PROJECTS</button>
                     </Link>
-                    <Link href="/pages/blog/IndexBlog">
+                    <Link href="/categories/blog/IndexBlog">
                         <button className="text-white px-4 m-1 bg-transparent-500/10 rounded-full p-1 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring focus:ring-300" href="#">BLOG</button>
                     </Link>
-                    <Link href="/pages/contact/Contact">
+                    <Link href="/categories/contact/Contact">
                         <button className="text-white px-4 m-1 bg-transparent-500/10 rounded-full p-1 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring focus:ring-300" href="#">CONTACT</button>
                     </Link>
                 </div>

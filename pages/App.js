@@ -1,5 +1,5 @@
-import Header from "./pages/Header";
-import Footer from "./pages/Footer";
+import Header from "./categories/Header";
+import Footer from "./categories/Footer";
 
 function App({children}) {
     return (

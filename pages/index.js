@@ -1,3 +1,5 @@
+import Language from "./categories/language/Language";
+
 export default function Home(){
     return(
         <div>

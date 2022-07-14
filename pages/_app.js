@@ -2,9 +2,11 @@ import '../styles/globals.css'
 import App from "./App"
 
 function MyApp({ Component, pageProps }) {
-  return<App>
+  return(
+    <App>
         <Component {...pageProps} />
-        </App>
+    </App>
+  );
 }
 
 export default MyApp
