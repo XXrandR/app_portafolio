@@ -1,7 +1,9 @@
 export default function Contact() {
+
+    // Created for the style
     const style = { height: "600px", }
     const marg = { marginBottom: "200px", }
-    const textarea = { height: "150px", }
+
     return (
         <div>
             <div className="flex justify-center text-white pt-64" style={style}>
@@ -18,20 +20,8 @@ export default function Contact() {
                     </ul>
                 </div>
             </div>
-            <form id="message" action="/categories/contact/Contact">
-            <div className="flex justify-center text-white h-80">
-                <div>
-                    <textarea className="resize rounded-md bg-black/70 p-2 focus:caret-indigo-500 text-inherit text-slate-500 h-72" styles={textarea} placeholder="Send me some message..."></textarea>
-                </div>
-                <div>
-                    <input className="disabled:opacity-75 bg-black/70 focus:text-inherit rounded p-2 m-4" type="input" placeholder="Name"></input>
-                    <br />
-                    <input className="disabled:opacity-75 bg-black/70 focus:text-inherit rounded p-2 m-4" type="input" placeholder="Email"></input>
-                    <br />
-                    <input type="submit" value="Message" className="rounded-md btn-styled m-4" />
-                </div>
+            <div>
             </div>
-            </form>
         </div>
     );
 }

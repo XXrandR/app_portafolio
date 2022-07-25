@@ -1,3 +1,6 @@
+import {motion} from "framer-motion";
+import Link from "next/link";
+
 export default function Home(){
     return(
         <div>
@@ -7,8 +10,12 @@ export default function Home(){
             <h2 className="text-white/40 text-1xl ml-6">Hi, I'm Jhosua a multidiciplinary programmer.</h2>
             </div>
         <div style={{marginLeft: "120px"}}>
-            <button className='btn-styled'>Projects</button>
-            <button className='btn-styled ml-6'>Contact Me</button>
+            <Link href="/categories/projects/IndexProjects">
+            <motion.button whileTap={{ scale: 0.9 }} className='btn-styled'>Projects</motion.button>
+            </Link>
+            <Link href="/categories/contact/Contact">
+            <motion.button whileTap={{scale: 0.9}} className='btn-styled ml-6'>Contact Me</motion.button>
+            </Link>
         </div>
         </div>
         </div>
