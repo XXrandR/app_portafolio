@@ -1,5 +1,7 @@
 # Project BASIC
 
+## This is my basic portfolio.
+
 ## BASIC COMMANDS
 
 First, run the development server:

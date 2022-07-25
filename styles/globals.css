@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -17,4 +18,11 @@ body {
 
 .landingForm{
     z-index: 1;
+}
+
+@layer components {
+    /* For the button {projects-contact me} in the home page */
+    .btn-styled{
+        @apply text-white px-8 bg-black/10 border rounded-full p-2 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring animate-pulse;
+    }
 }
