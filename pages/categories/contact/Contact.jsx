@@ -14,7 +14,7 @@ export default function Contact() {
                         "Everyone should know how to program a computer, because it teaches you how to think"
                     </h1>
                 </div>
-                <div className="bg-black/80 text-base font-bold rounded-md p-10 ml-28" style={marg}>About Me:
+                <div className="bg-black/80 text-base font-bold rounded-md p-12 pb-40 pb-1 ml-32" style={marg}>About Me:
                     <ul className="list-disc font-normal">
                         <li className="text-white/80 pt-3">Telephone: (+51) 918035608</li>
                         <li className="text-white/80 py-1">Email: jhosuacontjhosua@gmail.com</li>
