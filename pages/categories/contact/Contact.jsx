@@ -1,3 +1,5 @@
+import Form from './Form';
+
 export default function Contact() {
 
     // Created for the style
@@ -21,6 +23,7 @@ export default function Contact() {
                 </div>
             </div>
             <div>
+            <Form />
             </div>
         </div>
     );
