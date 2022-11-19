@@ -1,8 +1,8 @@
-from node:16-alpine
-run apk add --no-cache libc6-compat
-workdir app/
-copy . .
-run npm install
+FROM node:16-alpine
+RUN apk add --no-cache libc6-compat
+WORKDIR app/
+COPY . .
+RUN npm install
 
-cmd "npm" "run" "build"
-cmd "npm" "run" "dev"
+EXPOSE 3000
+CMD "npm" "run" "dev"
