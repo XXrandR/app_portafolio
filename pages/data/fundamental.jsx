@@ -1,10 +1,10 @@
 export const basic_props = {
-    English:{
+    English: {
         home: "HOME",
         blog: "BLOG",
         contact: "CONTACT",
         projects: "PROJECTS",
-        home_go: "Jhosua Blog",
+        home_go: "Jhosua Daga",
         detail_user: "Hi, I'm Jhosua a multidiciplinary programmer, and here is my blog.",
         projects_go: "Projects",
         contact_go: "Contact Me",
@@ -34,14 +34,14 @@ export const basic_props = {
         blog: "BLOG",
         contact: "CONTACTO",
         projects: "PROJECTOS",
-        home_go: "Jhosua Blog",
-        detail_user: "Hola, soy Joshua, un programador multidisciplinario, y este es mi blog.",
+        home_go: "Jhosua Daga",
+        about_page: "Hola, soy programador multidisciplinario.",
         projects_go: "Projectos",
         contact_go: "Contactar",
         frace: '"Suerte es lo que sucede cuando la preparación encuentra una oportunidad" - Seneca',
         rights: "© Todos los derechos reservados.",
         name: "Jhosua Daga",
         page_projects: "Pagina para projectos !",
-        about_page: "Hi, Soy Jhosua, un programador multidisciplinario, y este es mi blog."
+        vrp: "El problema de enrutamiento de vehículos es un problema de optimización de rutas que se utiliza para encontrar la mejor ruta para un conjunto de vehículos.El objetivo del problema es encontrar la ruta más corta para los vehículos que satisfaga todas las restricciones de tiempo, costo y capacidad.El problema de enrutamiento de vehículos se utiliza en una variedad de aplicaciones, como la entrega de paquetes, el transporte de pasajeros y la gestión de vehiculos."
     }
 }

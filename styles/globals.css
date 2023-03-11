@@ -23,6 +23,6 @@ body {
 @layer components {
     /* For the button {projects-contact me} in the home page */
     .btn-styled{
-        @apply text-white px-8 bg-black/10 border rounded-full p-2 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring animate-pulse;
+        @apply text-white px-7 bg-black/10 border rounded-full p-1.5 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring animate-pulse;
     }
 }

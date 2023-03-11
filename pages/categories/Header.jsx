@@ -29,14 +29,14 @@ function Header(props) {
                     <Link href="/">
                         <motion.button whileTap={{ scale: 0.8 }} className="text-white px-4 m-1 bg-transparent-500/10 rounded-full p-1 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring focus:ring-300">{props_new.home}</motion.button>
                     </Link>
-                    <Link href="/categories/projects/IndexProjects">
+                    <Link href="/categories/blog/IndexBlog">
                         <motion.button whileTap={{ scale: 0.8 }} className="text-white px-4 m-1 bg-transparent-500/10 rounded-full p-1 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring focus:ring-300">{props_new.blog}</motion.button>
                     </Link>
-                    <Link href="/categories/blog/IndexBlog">
-                        <motion.button whileTap={{ scale: 0.8 }} className="text-white px-4 m-1 bg-transparent-500/10 rounded-full p-1 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring focus:ring-300">{props_new.contact}</motion.button>
+                    <Link href="/categories/projects/IndexProjects">
+                        <motion.button whileTap={{ scale: 0.8 }} className="text-white px-4 m-1 bg-transparent-500/10 rounded-full p-1 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring focus:ring-300">{props_new.projects}</motion.button>
                     </Link>
                     <Link href="/categories/contact/Contact">
-                        <motion.button whileTap={{ scale: 0.8 }} className="text-white px-4 m-1 bg-transparent-500/10 rounded-full p-1 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring focus:ring-300">{props_new.projects}</motion.button>
+                        <motion.button whileTap={{ scale: 0.8 }} className="text-white px-4 m-1 bg-transparent-500/10 rounded-full p-1 hover:bg-gray-50 hover:text-black focus:outline-none focus:ring focus:ring-300">{props_new.contact}</motion.button>
                     </Link>
                 </div>
 
