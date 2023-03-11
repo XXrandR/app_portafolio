@@ -1,10 +1,4 @@
 import React, { useEffect } from "react";
-import Image from "next/image";
-import { motion } from "framer-motion";
-import mapvice from "../../static/map.png";
-import { basic_props } from "../../data/fundamental";
-import Link from "next/link";
-import { Canvas } from "@react-three/fiber";
 
 export default function MapVice() {
 

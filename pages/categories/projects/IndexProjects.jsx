@@ -7,7 +7,6 @@ import { motion } from "framer-motion";
 import mapvice from "../../static/map.png";
 import ai_approaching from "../../static/ai_approaching.jpg";
 import { basic_props } from "../../data/fundamental";
-import MapVice from './MapVice';
 import Link from 'next/link';
 
 export default function IndexProjects() {

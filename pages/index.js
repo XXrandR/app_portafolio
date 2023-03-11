@@ -1,10 +1,8 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { useEffect, useLayoutEffect, useState } from "react";
 import { basic_props } from "./data/fundamental";
 
 import Canvas from './utils/Canvas'
-import { Gradient } from './utils/lib/Gradient'
 
 export default function Home() {
     const props_new = basic_props.Spanish
